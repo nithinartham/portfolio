@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Portfolio and resume of Nithin Artham, Adobe Experience Manager developer.">
+  <title>Nithin Artham | AEM Developer</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="hero">
+    <nav aria-label="Primary navigation">
+      <a class="brand" href="#top">NA</a>
+      <div class="nav-links">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#experience">Experience</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+
+    <main id="top" class="hero-content">
+      <p class="eyebrow">Adobe Experience Manager Developer</p>
+      <h1>Hi, I’m Nithin Artham.</h1>
+      <p class="intro">
+        I build accessible, reliable, and maintainable web experiences using
+        Adobe Experience Manager and modern frontend technologies.
+      </p>
+      <div class="actions">
+        <a class="button primary" href="#experience">View my work</a>
+        <a class="button secondary" href="https://github.com/nithinartham">GitHub profile</a>
+      </div>
+    </main>
+  </header>
+
+  <section id="about">
+    <p class="eyebrow">About me</p>
+    <h2>Focused on useful digital experiences</h2>
+    <p>
+      I am an AEM developer with experience creating reusable components,
+      integrating enterprise services, improving accessibility, and supporting
+      production websites. I enjoy turning complex requirements into clear,
+      dependable solutions.
+    </p>
+  </section>
+
+  <section id="skills">
+    <p class="eyebrow">Skills</p>
+    <h2>Technologies I work with</h2>
+    <div class="cards">
+      <article>
+        <h3>AEM</h3>
+        <p>Sites, components, Sling Models, OSGi services, dialogs, Dispatcher, and Cloud Manager.</p>
+      </article>
+      <article>
+        <h3>Frontend</h3>
+        <p>HTML, CSS, JavaScript, React, responsive design, and web accessibility.</p>
+      </article>
+      <article>
+        <h3>Engineering</h3>
+        <p>Java, REST integrations, Git, CI/CD, testing, debugging, and production support.</p>
+      </article>
+    </div>
+  </section>
+
+  <section id="experience">
+    <p class="eyebrow">Experience</p>
+    <h2>Selected areas of work</h2>
+    <div class="timeline">
+      <article>
+        <h3>Enterprise AEM development</h3>
+        <p>Building authorable components and scalable website capabilities for content teams.</p>
+      </article>
+      <article>
+        <h3>Accessibility and compliance</h3>
+        <p>Improving inclusive experiences and implementing privacy-conscious analytics behavior.</p>
+      </article>
+      <article>
+        <h3>Platform reliability</h3>
+        <p>Investigating production issues, strengthening integrations, and supporting safe releases.</p>
+      </article>
+    </div>
+  </section>
+
+  <section id="contact">
+    <p class="eyebrow">Contact</p>
+    <h2>Let’s connect</h2>
+    <p>Visit my GitHub profile to see my public projects and development work.</p>
+    <a class="button primary" href="https://github.com/nithinartham">github.com/nithinartham</a>
+  </section>
+
+  <footer>
+    <p>&copy; <span id="year"></span> Nithin Artham</p>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
