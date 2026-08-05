@@ -362,9 +362,24 @@ h3 {
   font: 600 1.65rem/1.25 "Source Serif 4", Georgia, serif;
 }
 
-.target-highlight > p:last-child {
-  margin-bottom: 0;
+.target-highlight p {
   color: var(--muted);
+}
+
+.target-highlight > div:last-child p:last-child {
+  margin-bottom: 0;
+}
+
+.hands-on {
+  display: inline-block;
+  padding: 0.3rem 0.65rem;
+  border-radius: 999px;
+  background: var(--accent-light);
+  color: var(--accent-dark);
+  font-size: 0.72rem;
+  font-weight: 800;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
 }
 
 .experience-list {
