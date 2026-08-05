@@ -3,94 +3,222 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Portfolio and resume of Nithin Artham, Adobe Experience Manager developer.">
-  <title>Nithin Artham | AEM Developer</title>
+  <meta name="description" content="Portfolio of Nithin Artham, Adobe Certified AEM Developer specializing in enterprise web platforms, accessibility, and frontend engineering.">
+  <title>Nithin Artham | Adobe Certified AEM Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Source+Serif+4:opsz,wght@8..60,600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <header class="hero">
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <header class="site-header">
     <nav aria-label="Primary navigation">
-      <a class="brand" href="#top">NA</a>
+      <a class="brand" href="#home" aria-label="Nithin Artham, home">NA</a>
       <div class="nav-links">
         <a href="#about">About</a>
-        <a href="#skills">Skills</a>
+        <a href="#expertise">Expertise</a>
         <a href="#experience">Experience</a>
         <a href="#contact">Contact</a>
       </div>
+      <a class="nav-cta" href="#contact">Let’s connect</a>
     </nav>
-
-    <main id="top" class="hero-content">
-      <p class="eyebrow">Adobe Experience Manager Developer</p>
-      <h1>Hi, I’m Nithin Artham.</h1>
-      <p class="intro">
-        I build accessible, reliable, and maintainable web experiences using
-        Adobe Experience Manager and modern frontend technologies.
-      </p>
-      <div class="actions">
-        <a class="button primary" href="#experience">View my work</a>
-        <a class="button secondary" href="https://github.com/nithinartham">GitHub profile</a>
-      </div>
-    </main>
   </header>
 
-  <section id="about">
-    <p class="eyebrow">About me</p>
-    <h2>Focused on useful digital experiences</h2>
-    <p>
-      I am an AEM developer with experience creating reusable components,
-      integrating enterprise services, improving accessibility, and supporting
-      production websites. I enjoy turning complex requirements into clear,
-      dependable solutions.
-    </p>
-  </section>
+  <main id="main">
+    <section class="hero" id="home">
+      <div class="hero-copy">
+        <p class="eyebrow">Adobe Certified AEM Developer</p>
+        <h1>Building enterprise experiences that perform.</h1>
+        <p class="hero-summary">
+          I’m Nithin Artham, an AEM developer with 10 years of experience
+          delivering accessible, scalable, and author-friendly digital platforms.
+        </p>
+        <div class="actions">
+          <a class="button primary" href="#experience">Explore my experience</a>
+          <a class="button secondary" href="https://www.linkedin.com/in/nithinartham">Connect on LinkedIn</a>
+        </div>
+      </div>
+      <aside class="hero-card" aria-label="Professional overview">
+        <span class="status"><span aria-hidden="true"></span> Open to opportunities</span>
+        <dl>
+          <div>
+            <dt>Experience</dt>
+            <dd>10 years</dd>
+          </div>
+          <div>
+            <dt>Specialization</dt>
+            <dd>AEM &amp; frontend</dd>
+          </div>
+          <div>
+            <dt>Education</dt>
+            <dd>M.S., Electrical &amp; Computer Engineering</dd>
+          </div>
+        </dl>
+      </aside>
+    </section>
 
-  <section id="skills">
-    <p class="eyebrow">Skills</p>
-    <h2>Technologies I work with</h2>
-    <div class="cards">
-      <article>
-        <h3>AEM</h3>
-        <p>Sites, components, Sling Models, OSGi services, dialogs, Dispatcher, and Cloud Manager.</p>
-      </article>
-      <article>
-        <h3>Frontend</h3>
-        <p>HTML, CSS, JavaScript, React, responsive design, and web accessibility.</p>
-      </article>
-      <article>
-        <h3>Engineering</h3>
-        <p>Java, REST integrations, Git, CI/CD, testing, debugging, and production support.</p>
-      </article>
-    </div>
-  </section>
+    <section id="about" class="about section-grid">
+      <div>
+        <p class="eyebrow">About me</p>
+        <h2>Engineering content platforms for people and teams.</h2>
+      </div>
+      <div class="prose">
+        <p>
+          I specialize in Adobe Experience Manager as a Cloud Service and AEM
+          6.5, combining backend platform development with modern frontend
+          engineering. My work includes reusable components, templates, dialogs,
+          Sling Models, OSGi services, Content Fragments, Experience Fragments,
+          and enterprise integrations.
+        </p>
+        <p>
+          I care deeply about accessibility, performance, maintainability, and
+          author experience. I work closely with product, design, content, and
+          engineering teams to turn complex requirements into dependable
+          digital experiences.
+        </p>
+      </div>
+    </section>
 
-  <section id="experience">
-    <p class="eyebrow">Experience</p>
-    <h2>Selected areas of work</h2>
-    <div class="timeline">
-      <article>
-        <h3>Enterprise AEM development</h3>
-        <p>Building authorable components and scalable website capabilities for content teams.</p>
-      </article>
-      <article>
-        <h3>Accessibility and compliance</h3>
-        <p>Improving inclusive experiences and implementing privacy-conscious analytics behavior.</p>
-      </article>
-      <article>
-        <h3>Platform reliability</h3>
-        <p>Investigating production issues, strengthening integrations, and supporting safe releases.</p>
-      </article>
-    </div>
-  </section>
+    <section id="expertise">
+      <div class="section-heading">
+        <p class="eyebrow">Core expertise</p>
+        <h2>A full-stack approach to AEM delivery.</h2>
+      </div>
+      <div class="expertise-grid">
+        <article>
+          <span class="card-number">01</span>
+          <h3>Adobe Experience Manager</h3>
+          <p>AEM as a Cloud Service, AEM 6.5, Sling, HTL, JCR, OSGi, workflows, DAM, and authoring.</p>
+        </article>
+        <article>
+          <span class="card-number">02</span>
+          <h3>Frontend engineering</h3>
+          <p>React, LIT, TypeScript, JavaScript, HTML, CSS, SCSS, responsive design, and Storybook.</p>
+        </article>
+        <article>
+          <span class="card-number">03</span>
+          <h3>Quality and accessibility</h3>
+          <p>WCAG, FASTPass, Siteimprove, JEST, Playwright, cross-browser testing, and performance optimization.</p>
+        </article>
+        <article>
+          <span class="card-number">04</span>
+          <h3>Cloud and delivery</h3>
+          <p>Adobe Cloud Manager, Azure DevOps, Jenkins, Git, CI/CD, SonarQube, telemetry, and analytics.</p>
+        </article>
+      </div>
+    </section>
 
-  <section id="contact">
-    <p class="eyebrow">Contact</p>
-    <h2>Let’s connect</h2>
-    <p>Visit my GitHub profile to see my public projects and development work.</p>
-    <a class="button primary" href="https://github.com/nithinartham">github.com/nithinartham</a>
-  </section>
+    <section id="experience">
+      <div class="section-heading">
+        <p class="eyebrow">Professional experience</p>
+        <h2>A decade of enterprise web delivery.</h2>
+      </div>
+      <div class="experience-list">
+        <article class="role featured">
+          <div class="role-meta">
+            <p>2022 — Present</p>
+            <span>Senior AEM Developer</span>
+          </div>
+          <div>
+            <h3>Microsoft digital experiences</h3>
+            <p>
+              Develop and enhance Microsoft web properties, including the
+              Microsoft Game Dev platform on AEM as a Cloud Service.
+            </p>
+            <ul>
+              <li>Build reusable AEM components from Figma designs using LIT, TypeScript, React, HTL, and Java.</li>
+              <li>Improve accessibility, performance, telemetry, privacy compliance, and authoring experiences.</li>
+              <li>Support automated testing and delivery using JEST, Playwright, Jenkins, Azure DevOps, and Cloud Manager.</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="role">
+          <div class="role-meta">
+            <p>2022</p>
+            <span>AEM Consultant</span>
+          </div>
+          <div>
+            <h3>Sazerac</h3>
+            <p>Supported redesigned consumer websites with reusable AEM Cloud components, accessible frontend implementation, and author-focused content patterns.</p>
+          </div>
+        </article>
+
+        <article class="role">
+          <div class="role-meta">
+            <p>2020 — 2022</p>
+            <span>AEM Developer</span>
+          </div>
+          <div>
+            <h3>Poly</h3>
+            <p>Developed and maintained AEM 6.5 and React experiences, including reusable components, DAM workflows, access management, analytics, and SPA integrations.</p>
+          </div>
+        </article>
+
+        <article class="role">
+          <div class="role-meta">
+            <p>2019 — 2020</p>
+            <span>AEM Developer</span>
+          </div>
+          <div>
+            <h3>Broadridge Financial Solutions</h3>
+            <p>Built custom AEM components, templates, workflows, client libraries, responsive interfaces, and authentication integrations for financial platforms.</p>
+          </div>
+        </article>
+
+        <article class="role">
+          <div class="role-meta">
+            <p>2018 — 2019</p>
+            <span>AEM Developer</span>
+          </div>
+          <div>
+            <h3>U.S. Bank</h3>
+            <p>Supported enterprise website migrations to AEM and developed reusable components, templates, dialogs, workflows, and responsive frontend experiences.</p>
+          </div>
+        </article>
+
+        <article class="role">
+          <div class="role-meta">
+            <p>2016 — 2018</p>
+            <span>AEM UI Developer</span>
+          </div>
+          <div>
+            <h3>Ford and T-Mobile</h3>
+            <p>Delivered responsive websites and single-page experiences using AEM, Angular, TypeScript, JavaScript, HTML, CSS, and SCSS.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="education section-grid">
+      <div>
+        <p class="eyebrow">Education</p>
+        <h2>Fairfield University</h2>
+      </div>
+      <div class="education-detail">
+        <p class="degree">Master of Science</p>
+        <p>Electrical and Computer Engineering · Connecticut, United States</p>
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <p class="eyebrow">Let’s connect</p>
+      <h2>Interested in building better digital experiences?</h2>
+      <p>I’m available to discuss AEM and frontend engineering opportunities.</p>
+      <div class="contact-links">
+        <a href="mailto:nithin.artham@gmail.com">nithin.artham@gmail.com</a>
+        <a href="tel:+12036906786">203-690-6786</a>
+        <a href="https://www.linkedin.com/in/nithinartham">LinkedIn</a>
+        <a href="https://github.com/nithinartham">GitHub</a>
+      </div>
+    </section>
+  </main>
 
   <footer>
     <p>&copy; <span id="year"></span> Nithin Artham</p>
+    <a href="#home">Back to top <span aria-hidden="true">↑</span></a>
   </footer>
 
   <script>
